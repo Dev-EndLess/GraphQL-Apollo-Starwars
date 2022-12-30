@@ -1,0 +1,148 @@
+/* 
+36, 138, 211 azzurro   
+116, 104, 108 grigio++
+169, 162, 164 grigio+
+221, 220, 229 grigio
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-image: url("star-wars-backgrounds.jpg");
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("star-wars-backgrounds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  background-color: rgb(33, 33, 33);
+  color: rgb(221, 220, 229);
+  border: 1px solid rgb(36, 138, 211);
+}
+
+.menu-title {
+  font-size: 100px;
+  padding-bottom: 2rem;
+}
+
+.menu-link {
+  font-size: 50px;
+  margin: 2rem;
+  padding: 10px;
+  color: rgb(221, 220, 229);
+  text-decoration: none;
+  border: 1px solid rgb(36, 138, 211);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(221, 220, 229);
+  text-shadow: 0px 0px 10px 10px rgb(221, 220, 229);
+}
+
+.menu-link:hover {
+  color: rgb(36, 138, 211);
+  box-shadow: 0px 0px 20px 5px rgb(36, 138, 211);
+}
+
+.title {
+  color: rgb(255, 135, 175);
+  font-size: 60px;
+  padding: 1rem;
+  margin-bottom: 1px;
+}
+
+.subtitle {
+
+}
+
+.starship {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+  color: rgb(221, 220, 229);
+  border: 1px solid rgb(36, 138, 211);
+  margin: 10px;
+  padding: 10px;
+}
+
+.list-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+}
+
+.link-detail {
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(36, 138, 211);
+}
+
+.link-detail:hover {
+  color: rgb(255, 135, 175);
+}
+
+.starship-detail {
+  color: rgb(255, 135, 175);
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
+.item-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 22px;
+  background-color: rgb(33, 33, 33);
+  color: rgb(36, 138, 211);
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid rgb(221, 220, 229);
+}
+
+.back {
+  padding: 2rem;
+  font-size: 25px;
+}
+
+.back-to {
+  padding: 2rem;
+  color: rgb(255, 135, 175)
+}
+
+.back-to:hover {
+  color: rgb(221, 220, 229);
+}
+
+.age-details {
+  font-size: 14px;
+  color: rgb(221, 220, 229);
+}
+
+
