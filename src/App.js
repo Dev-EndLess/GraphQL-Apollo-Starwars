@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={ <Menu/> }/>
           <Route path="/people" element={ <PeopleList/> }/>
           <Route path="/people/details/:id" element={ <PeopleDetails/> }/>
-          <Route path="/starship" element={ <StarshipList/> }/>
+          <Route path="/starships" element={ <StarshipList/> }/>
           <Route path="/starship/details/:id" element={ <StarshipDetails/> }/>
         </Routes>
       </div>

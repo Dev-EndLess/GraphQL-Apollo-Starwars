@@ -7,10 +7,10 @@ function Menu() {
       <h1 className="menu-title">Star Wars API</h1>
       <span>
         <Link to="/people" className="menu-link">
-          People
+          Characters
         </Link>
-        <Link to="/starship" className="menu-link">
-          Starship
+        <Link to="/starships" className="menu-link">
+          Starships
         </Link>
       </span>
     </div>

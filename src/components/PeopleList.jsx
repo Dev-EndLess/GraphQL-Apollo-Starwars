@@ -14,7 +14,7 @@ function PeopleList() {
 
   return (
     <div className="container">
-      <h1 className="title">People</h1>
+      <h1 className="title">Characters</h1>
       <span className="back">
       <Link to="/" className="back-to">
         Back to Home
