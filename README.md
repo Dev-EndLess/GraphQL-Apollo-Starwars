@@ -1,3 +1,10 @@
+## ⚠️ API Notice
+
+The GraphQL Star Wars API used in this project is **deprecated and no longer maintained**.
+
+Some fields (e.g. person and starship details) may return `null` values due to issues in the upstream API.
+This is a known limitation and **not a bug in the application code**.
+
 # GraphQL Project with Apollo Client
 
 ![download](https://github.com/user-attachments/assets/594f244c-3e5e-4f38-b48d-dfa33f912d58)
